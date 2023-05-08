@@ -39,7 +39,7 @@ quickDrawDataset=["aircraft carrier","airplane","alarm clock","ambulance","angel
 
                       function updateCanvas() {
                         background("white");
-                        randomNumber = Math.floor((Math.floor() * quickDrawDataset.length) + 1);
+                        randomNumber = Math.floor((Math.random() * quickDrawDataset.length) + 1);
                         console.log(quickDrawDataset[randomNumber]);
                         sketch = quickDrawDataset[randomNumber];
                         document.getElementById('sketchName').innerHTML = 'esboço a ser desenhado: ' + sketch;
