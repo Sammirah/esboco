@@ -35,7 +35,7 @@ quickDrawDataset=["aircraft carrier","airplane","alarm clock","ambulance","angel
                       timerCheck = "";
                       drawnSketch = "";
                       answerHolder = "";
-                      score = 0;~
+                      score = 0;
 
                       function updateCanvas() {
                         background("white");
